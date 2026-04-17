@@ -1,0 +1,10 @@
+ABC-123    | 1 óra 25 perc        | Alap:   300 Ft | Percre:   280 Ft
+KFT-582    | 2 óra 52 perc        | Alap:   900 Ft | Percre:   715 Ft
+JRM-441    | 26 perc              | Alap:     0 Ft | Percre:     0 Ft
+PTX-907    | 4 óra 31 perc        | Alap:  1900 Ft | Percre:  1416 Ft
+LND-264    | 20 óra 47 perc       | Alap:  9900 Ft | Percre:  9550 Ft
+MVB-715    | 25 perc              | Alap:     0 Ft | Percre:     0 Ft
+HSZ-388    | 4 óra 26 perc        | Alap:  1400 Ft | Percre:  1375 Ft
+QWE-129    | 1 nap                | Alap: 10000 Ft | Percre: 10000 Ft
+RTY-663    | 1 nap 6 óra 6 perc   | Alap: 12400 Ft | Percre: 12208 Ft
+ZPL-504    | 2 óra 28 perc        | Alap:   600 Ft | Percre:   595 Ft
