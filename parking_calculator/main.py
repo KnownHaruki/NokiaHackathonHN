@@ -42,8 +42,7 @@ def main():
         if mins // 60 > 0: time_parts.append(f"{int(mins // 60)} perc")
         duration = " ".join(time_parts) if time_parts else "0 perc"
 
-        #out.append(f"{split_line[0]:<10} | {duration:<20} | Alap: {std_fee:>5} Ft | Percre: {min_fee:>5} Ft")
-        out.append(f"{split_line[0]} -> {std_fee} forint")
+        out.append(f"{split_line[0]:<10} | {duration:<20} | Alap: {std_fee:>5} Ft | Percre: {min_fee:>5} Ft")
 
     result_text = "\n".join(out)
     with open("out.txt", "w", encoding="utf-8") as f:
