@@ -16,9 +16,7 @@ def min_num_of_drops(device_num: int, max_floors: int) -> int:
 
 def main():
     data = Path("input.txt").read_text(encoding="utf-8")
-    print(data, end="")
 
-    print("\nOutput:")
     for line in data.splitlines():
         parts = line.split(',')
         print(min_num_of_drops(int(parts[0].strip()), int(parts[1].strip())))

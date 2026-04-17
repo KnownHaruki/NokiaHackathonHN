@@ -31,9 +31,7 @@ def parse_input_line(line: str) -> str:
 
 def main():
     data = Path("input.txt").read_text(encoding="utf-8")
-    print(data, end="")
 
-    print("\nOutput:")
     for line in data.splitlines():
         print(next_magic_num(parse_input_line(line)))
 
