@@ -56,7 +56,11 @@ def main():
         parsed_data = parse_dynamic_ipconfig(path)
         all_results.append(parsed_data)
 
-    print(json.dumps(all_results, indent=2, ensure_ascii=False))
+    json_output = json.dumps(all_results, indent=2, ensure_ascii=False)
+    print(json_output)
+
+    with open("out.json", "w", encoding="utf-8") as f:
+        f.write(json_output)
 
 if __name__ == "__main__":
     main()
