@@ -6,7 +6,9 @@ def calc_fee(secs, per_min=False):
     days, remaining = divmod(secs, 86400)
     mins = math.ceil(remaining / 60)
 
-    if mins <= 30:
+    if days >= 1:
+        f = mins * (500 / 60) if per_min else math.ceil(mins / 60) * 500
+    elif mins <= 30:
         f = 0
     elif mins <= 210:
         f = (mins - 30) * 5 if per_min else math.ceil((mins - 30) / 60) * 300
