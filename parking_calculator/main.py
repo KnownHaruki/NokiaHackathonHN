@@ -7,7 +7,7 @@ def calc_fee(secs, per_min=False):
     mins = math.ceil(remaining / 60)
 
     if days >= 1:
-        f = mins * (500 / 60) if per_min else math.ceil(mins / 60) * 500
+        f = mins * (500 / 60) if per_min else math.ceil(mins / 60) * 500 # If you pass the first day, it's counted 500 Ft per hour
     elif mins <= 30:
         f = 0
     elif mins <= 210:
